@@ -1,0 +1,25 @@
+Calcul de IMC
+
+Variable :
+IMC
+Poid
+Taille
+UtilisateurPret?
+
+Saisir <UtilisateurPret?>
+Si <UtilisateurPret?> est egal a "Oui" alors :
+  Saisir <Kilogram>
+  Saisir <Poid>
+  Afficher "Merci"
+  <IMC> est égal a <Kilogram> multiplier par <Poid> au carré
+    Si <IMC> est inférieur a 18.5
+      Afficher "Tu es maigre ton IMC est de <IMC>
+    Si <IMC> est supérieur et egal a 18.5 et <IMC> est inférieur est egal a 24.9
+      Afficher "Tu es normal ton IMC est de <IMC>"
+    Si <IMC> est supérieur et egal a 25 et <IMC> est inférieur est egal a 29.9
+      Afficher "Tu es gros ton IMC est de <IMC>"
+    Si <IMC> est supérieur ou egal a 30 
+      Afficher "T'es enorme chef vas falloir reflechier a faire quelque chose ton IMC est de <IMC>"
+
+
+
